@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="pulseBg" x1="48" y1="32" x2="464" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="52%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="heartGlow" x1="160" y1="128" x2="352" y2="368" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#CCFBF1" />
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="116" fill="url(#pulseBg)" />
+  <circle cx="256" cy="256" r="176" stroke="rgba(255,255,255,0.22)" stroke-width="14" />
+  <path
+    d="M256 392C248 392 128 310 128 214C128 164 167 126 214 126C236 126 251 137 256 149C261 137 276 126 298 126C345 126 384 164 384 214C384 310 264 392 256 392Z"
+    fill="url(#heartGlow)"
+    fill-opacity="0.22"
+    stroke="#FFFFFF"
+    stroke-width="18"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M116 258H186L216 196L254 314L292 226L318 258H396"
+    stroke="#FFFFFF"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="384" cy="144" r="22" fill="#FDE047" />
+</svg>
